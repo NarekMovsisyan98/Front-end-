@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+          integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
+          integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header_box">
+            <a href="#" class="logo"><img src="img/logo.svg" alt=""> <span>Авторизованный сервисный <br/> центр по ремонту кофемашин</span></a>
+            <div class="header_item">
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header_block border_left">
+                <span>г. Кишинев, <br/>
+                ул Бэнулеску Бодони 33
+                    </span>
+                    <a href="#" class="color_light"><img src="img/location.svg" alt="">На карте</a>
+                </div>
+                <div class="header_block border_left">
+                    <span class="color_grey">Orange</span>
+                    <a href="tel:069827738" class="tel_link">069 82 77 38</a>
+                    <span class="color_light">Cегодня работаем до 18:30</span>
+                </div>
+                <ul class="lang_list tablet_pro">
+                    <li>
+                        <a href="#">Рус</a>
+                    </li>
+                    <li>
+                        <a href="#">Rom</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_body">
+                <button class="btn bg_dark color_white">Заказать звонок</button>
+                <button class="burger_btn"><span></span><span></span><span></span></button>
+            </div>
+            <ul class="lang_list">
+                <li>
+                    <a href="#">Рус</a>
+                </li>
+                <li>
+                    <a href="#">Rom</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__box">
+                <h2 class="intro_title">Срочный <span>ремонт<br> кофемашин</span> в Кишиневе</h2>
+                <div class="contact__div">
+                    <div class="contact__item">
+                        <div class="contact__block">
+                            <img class="contact__bg"  src="img/contact1.svg" alt="">
+                            <div class="contact__label">
+                                <h5 class="contact__label__1">г. Кишинев ул. Бэнулеску Бодони 33</h5>
+                                <div class="contact__text">(Угол бодони и букурешть,выше памятника Штефана чел Маре 2 квартала)</div>
+                            </div>
+                        </div>
+                        <div class="contact__block">
+                            <img class="contact__bg"  src="img/contact2.svg" alt="">
+                            <div class="contact__tel__1">
+                            <h5 class="contact__label__1">(069) 827-738, (079) 927-738</h5>
+                            <div class="contact__text">Поддержка Клиентов</div>
+                            <h5 class="contact__label__1">(068) 525-294</h5>
+                            <div class="contact__text">Менеджер отвечающий  за аппараты каторые уже у нас</div>
+                            </div>
+                        </div>
+                        <div class="contact__block">
+                            <img class="contact__bg" src="img/contact3.svg" alt="">
+                            <div class="contact__time__1">
+                            <h5 class="contact__label__1">09:00 - 18:30</h5>
+                            <div class="contact__text">Понедельник - Пятница</div>
+                            </div>
+                            <div class="contact__time__1">
+                                <h5 class="contact__label__1">10:00 - 15:00</h5>
+                                <div class="contact__text">Суббота</div>
+                            </div>
+                            <div class="contact__time__1">
+                                <h5 class="contact__label__1">10:00 - 14:00</h5>
+                                <div class="contact__text">Воскресенье</div>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="#">
+                    <div class="contact__item">
+                        <h3 class="contact__form">Получите бесплатную консультацию</h3>
+                        <div class="form_item__1">
+                            <input type="text" placeholder="Имя" class="contact__form_inp">
+                        </div>
+                        <div class="form_item__1">
+                            <input type="tel" placeholder="06X XX XX XX" class="contact__form_inp">
+                        </div>
+                        <div class="form_item__1">
+                            <input type="text" placeholder="Модель кофемашины" class="contact__form_inp">
+                        </div>
+                        <div class="form_item__1">
+                            <input type="text" placeholder="Какая у вас проблема?" class="contact__form_inp">
+                        </div>
+                        <div class="form_btn">
+                            <button class="btn contact__btn ">Отправить</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="contact__blocks">
+                    <div class="contact__img"><img src="img/contact1.png" alt=""></div>
+                    <div class="contact__img"><img src="img/contact2.png" alt=""></div>
+                    <div class="contact__img"><img src="img/contact3.png" alt=""></div>
+                    <div class="contact__img"><img src="img/contact4.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact__map text_center">
+        <div class="map_box" style="background-image: url(img/map.svg)"></div>
+        <h5 class="contact__title">Записаться на диагностику в <span>удобное вам время</span></h5>
+        <form action="#">
+            <div class="form bg_light map_form">
+                <div class="form_item">
+                    <input type="text" placeholder="Имя" class="form_inp">
+                </div>
+                <div class="form_item">
+                    <input type="tel" placeholder="06X XX XX XX" class="form_inp">
+                </div>
+                <div class="form_btn">
+                    <button class="btn bg_dark color_white">Рассчитать стоимость</button>
+                    <span>С вами свяжется наш специалист <br> через 2 минуты</span>
+                </div>
+                <div class="form__new"><label><input type="checkbox" class="form__checkbox"><span class="checkbox_span"></span><span >Я согласен с условиями обработки  </span> персональных данных</label></div>
+            </div>
+        </form>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer_box">
+            <div class="footer_block">
+                <a href="#" class="logo"><img src="img/logo.svg" alt=""></a>
+                <ul class="social_list">
+                    <li><a href="#"><img src="img/social_1.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social_2.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social_3.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social_1.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="footer_block">
+                <h3 class="footer_title">Поломки</h3>
+                <ul class="breakdowns_list">
+                    <li><a href="#">Протекает</a></li>
+                    <li><a href="#">Не делает пену</a></li>
+                    <li><a href="#">Не подает воду</a></li>
+                    <li><a href="#">Плохо течет кофе</a></li>
+                    <li><a href="#">Не включается</a></li>
+                    <li><a href="#">Не варит кофе</a></li>
+                    <li><a href="#">Не мелет кофе</a></li>
+                    <li><a href="#">Не греет воду</a></li>
+                </ul>
+            </div>
+            <div class="footer_block">
+                <h3 class="footer_title">Рейтинг сервиса</h3>
+                <div class="stars"><img src="img/stars.svg" alt=""></div>
+                <div class="rating">4.8/5.0 - 403 голоса</div>
+                <div class="header_block border_left">
+                <span>г. Кишинев, <br>
+                ул Бэнулеску Бодони 33
+                    </span>
+                    <a href="#" class="color_light"><img src="img/location.svg" alt="">На карте</a>
+                </div>
+            </div>
+            <div class="footer_block">
+                <div class="header_block border_left">
+                    <span class="color_grey">Orange</span>
+                    <a href="tel:069827738" class="tel_link">069 82 77 38</a>
+                    <span class="color_light">Cегодня работаем до 18:30</span>
+                </div>
+                <button class="btn bg_dark color_white">Заказать звонок</button>
+            </div>
+            <div class="footer_block">
+                <ul class="footer_list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="text_center">© 2021 I Love coffee</div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
+        integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,423 @@
+@media (max-width: 1400px) {
+    .header .container {
+        max-width: 1410px;
+    }
+    .header_list a {
+        font-size: 14px;
+    }
+
+    .tel_link {
+        font-size: 20px;
+    }
+
+    .logo {
+        max-width: 90px;
+    }
+
+    .logo span {
+        display: none;
+    }
+
+    .intro_img {
+        opacity: 0.5;
+    }
+
+    .delonghi_list div {
+        width: 60%;
+    }
+
+    .delonghi_list a {
+        color: #000;
+        font-weight: 700;
+    }
+
+    .buy_coffee_text {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 1199px) {
+    .tablet_pro {
+        display: block;
+    }
+
+    .header_item {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background: #fff;
+        padding: 20px;
+        border-bottom: 2px solid #06D24E;
+        display: none;
+    }
+
+    .header {
+        position: relative;
+        z-index: 1234;
+    }
+
+    .lang_list {
+        display: none;
+    }
+
+    .border_left:before {
+        height: 3px;
+        width: 100%;
+        bottom: 0;
+        top: unset;
+    }
+
+    .header_list a {
+        font-size: 18px;
+    }
+
+    .header_block {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+
+    .header_nav {
+        margin-bottom: 20px;
+    }
+
+    .burger_btn {
+        display: block;
+        background: transparent;
+        width: 36px;
+        margin: -3px 0;
+        margin-left: 10px;
+    }
+
+    .burger_btn span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #000;
+        margin: 3px 0;
+    }
+
+    .header_body {
+        display: flex;
+    }
+
+    .header_list {
+        justify-content: center;
+    }
+
+    .header_block {
+        padding-left: 0;
+        max-width: 50%;
+        margin: 0 auto 20px;
+    }
+    .map_item {background-size: 500px;}
+
+    .form_item,.map_form .form_item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form_btn {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
+
+    .footer_box {
+        flex-wrap: wrap;
+    }
+
+    .footer_block:last-child,.footer_block:first-child {
+        flex: 0 0 100%;
+    }
+
+    .footer_list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .footer_block:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .footer_block .header_block {
+        max-width: unset;
+    }
+
+    .reviews_bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reviews_bottom_text {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .buy_coffee_block {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 40px 0;
+    }
+    .reviews_bottom_text {
+        max-width: unset;
+    }
+
+    .buy_coffee_desc {
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .intro_block {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 30px 0;
+    }
+
+    .intro_title {
+        font-size: 60px;
+    }
+
+    .banner_box {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .banner_img_box {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 50px 0;
+        margin: 30px 0;
+    }
+
+    .banner_img_box:before {
+        transform: unset;
+        height: 100%;
+    }
+
+    .banner_item {
+        justify-content: space-between;
+    }
+
+    .banner {
+        padding: 60px 0;
+    }
+
+    .buy_coffee {
+        padding: 60px 0;
+    }
+
+    .faq_body {
+        max-width: 100%;
+    }
+
+    .faq_box {
+        padding: 30px 0;
+        min-height: unset;
+        background-size: cover;
+    }
+
+    .reviews {
+        background-image: none !important;
+        padding: 60px 0;
+        min-height: unset;
+    }
+
+    .reviews_box {
+        max-width: 100%;
+    }
+
+    .map_item {
+        padding: 0;
+        background-image: none !important;
+        min-height: unset;
+    }
+
+    .map_desc {
+        max-width: unset;
+        margin-bottom: 50px;
+    }
+
+    .footer_block:nth-child(2) {flex: 0 0 100%;text-align: center;margin: 20px 0;}
+
+    .breakdowns_list {
+        margin: 0 auto;
+    }
+
+    .breakdowns_list li {
+        text-align: left;
+    }
+}
+
+@media(max-width: 767px) {
+    .intro_title {
+        font-size: 36px;
+    }
+
+    .intro_block {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .form_btn {
+        max-width: 100%;
+    }
+
+    .form_btn .btn {
+        height: unset;
+        padding: 20px;
+    }
+
+    .form_item {
+        padding: 0;
+    }
+
+    .form_inp {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .delonghi_title {
+        font-size: 28px;
+    }
+
+    .delonghi {
+        background-image: none;
+    }
+
+    .delonghi_list li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .delonghi_list li:nth-child(even) {
+        justify-content: unset;
+    }
+
+    .delonghi_list div {
+        width: 100%;
+    }
+
+    .delonghi_list:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(255,255,255,.5);
+        z-index: -1;
+    }
+
+    .delonghi_list {
+        position: relative;
+        z-index: 1;
+    }
+
+    .delonghi_list li:last-child {
+        justify-content: unset;
+    }
+
+    .delonghi_block {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .delonghi_item {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 10px;
+    }
+
+
+    .title {
+        font-size: 36px;
+    }
+
+    .buy_coffee {
+        padding: 30px 0;
+    }
+
+    .buy_coffee_desc {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .buy_coffee_name {
+        font-size: 20px;
+    }
+
+    .buy_coffee_price {
+        font-size: 20px;
+    }
+
+    .buy_coffee_img {
+        min-height: 220px;
+    }
+
+    .buy_coffee_img_box:before {
+        width: 200px;
+        height: 200px;
+    }
+
+    .banner_img {
+        min-height: 200px;
+    }
+
+    .banner_title {
+        font-size: 18px;
+    }
+
+    .banner_block {
+        max-width: 100%;
+    }
+
+    .banner_item {
+        flex-direction: column;
+    }
+
+    .banner_timer {
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .faq_box {
+        margin: 0;
+    }
+    .header_list {
+        flex-direction: column;
+    }
+    .select2-container {
+        font-size: 16px;
+    }
+
+    .select2-container--default .select2-selection--single {
+        padding-bottom: 10px;
+    }
+    .reviews_bottom_text {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .reviews_bottom .btn {
+        width: 100%;
+    }
+}

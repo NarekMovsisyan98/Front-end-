@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+          integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
+          integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header_box">
+            <a href="#" class="logo"><img src="img/logo.svg" alt=""> <span>Авторизованный сервисный <br/> центр по ремонту кофемашин</span></a>
+            <div class="header_item">
+            <nav class="header_nav">
+                <ul class="header_list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header_block border_left">
+                <span>г. Кишинев, <br/>
+                ул Бэнулеску Бодони 33
+                    </span>
+                <a href="#" class="color_light"><img src="img/location.svg" alt="">На карте</a>
+            </div>
+            <div class="header_block border_left">
+                <span class="color_grey">Orange</span>
+                <a href="tel:069827738" class="tel_link">069 82 77 38</a>
+                <span class="color_light">Cегодня работаем до 18:30</span>
+            </div>
+                <ul class="lang_list tablet_pro">
+                    <li>
+                        <a href="#">Рус</a>
+                    </li>
+                    <li>
+                        <a href="#">Rom</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_body">
+            <button class="btn bg_dark color_white">Заказать звонок</button>
+                <button class="burger_btn"><span></span><span></span><span></span></button>
+            </div>
+            <ul class="lang_list">
+                <li>
+                    <a href="#">Рус</a>
+                </li>
+                <li>
+                    <a href="#">Rom</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="intro">
+        <div class="intro_img intro_img_1"><img src="img/intro_img_1.png" alt=""></div>
+        <div class="intro_img intro_img_2"><img src="img/intro_img_2.png" alt=""></div>
+        <div class="container">
+            <h1 class="intro_title text_center">
+                Мы ремонтируем <span> кофемашины Delonghi </span><br/>
+                У нас <u>опытные мастера</u> <br/>
+                А еще нас <u>любят</u>
+            </h1>
+            <div class="intro_box">
+                <div class="intro_privilege">
+                    <div class="intro_block">
+                        <div class="intro_icon"><img src="img/intro_icon_1.svg" alt=""></div>
+                        <div class="intro_text">
+                            <h3 class="intro_name">Подарок</h3>
+                            <div class="intro_desc">На любой ремонт предоставляем жидкость для очистки кофемашины</div>
+                        </div>
+                    </div>
+                    <div class="intro_block">
+                        <div class="intro_icon"><img src="img/intro_icon_2.svg" alt=""></div>
+                        <div class="intro_text">
+                            <h3 class="intro_name">Срочный Ремонт</h3>
+                            <div class="intro_desc">Отремонтируем срочно без очереди, 90% запчастей есть на месте</div>
+                        </div>
+                    </div>
+                    <div class="intro_block">
+                        <div class="intro_icon"><img src="img/intro_icon_3.svg" alt=""></div>
+                        <div class="intro_text">
+                            <h3 class="intro_name">Гарантия на все услуги</h3>
+                            <div class="intro_desc">На все услуги предоставляется. Включая на запчасти, на работу и даже
+                                на чистку
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="form bg_light">
+                        <div class="form_item">
+                            <select class="select_accent form_select form_inp">
+                                <option value="">Модель</option>
+                                <option value="Ardesto">Ardesto</option>
+                                <option value="Delonghi">Delonghi</option>
+                                <option value="Electrolux">Electrolux</option>
+                                <option value="Jura">Jura</option>
+                                <option value="Krups">Krups</option>
+                                <option value="Magio">Magio</option>
+                                <option value="Melitta">Melitta</option>
+                                <option value="Nivona">Nivona</option>
+                                <option value="Philips">Philips</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <select class="select_accent form_select form_inp">
+                                <option value="">Что случилось с вашим устройством</option>
+                                <option value="Вариант1">Вариант 1</option>
+                                <option value="Вариант2">Вариант 2</option>
+                                <option value="Вариант3">Вариант 3</option>
+                            </select>
+                        </div>
+                        <div class="form_btn">
+                            <button class="btn bg_dark color_white">Узнать стоимость</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="delonghi">
+        <div class="container">
+            <h2 class="delonghi_title text_center">Кофемашина Delonghi будет как новая, мы постараемся <img
+                    src="img/emoji.svg" alt=""></h2>
+            <div class="delonghi_box" style="background-image: url(img/delonghi.png)">
+                <ul class="delonghi_list">
+                    <li>
+                        <div><a href="#">Протекает</a> <span class="price">от 230 лей</span></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Не делает пену</a> <span class="price">от 350 лей</span></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Не подает воду</a> <span class="price">от 550 лей</span></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Плохо течет кофе</a> <span class="price">от 400 лей</span></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Не включается</a> <span class="price">от 450 лей</span></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Не варит кофе</a> <span class="price">от 400 лей</span></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Не мелет кофе</a> <span class="price">от 700 лей</span></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Не греет воду</a> <span class="price">от 550 лей</span></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Другая поломка</a></div>
+                    </li>
+                </ul>
+                <div class="delonghi_block">
+                    <div class="delonghi_item"><img src="img/siemens1.png" alt=""></div>
+                    <div class="delonghi_item"><img src="img/siemens2.png" alt=""></div>
+                    <div class="delonghi_item"><img src="img/siemens3.png" alt=""></div>
+                    <div class="delonghi_item"><img src="img/siemens4.png" alt=""></div>
+                    <div class="delonghi_item"><img src="img/siemens5.png" alt=""></div>
+                    <div class="delonghi_item"><img src="img/siemens6.png" alt=""></div>
+                    <div class="delonghi_item"><img src="img/siemens7.png" alt=""></div>
+                    <div class="delonghi_item"><img src="img/siemens8.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="buy_coffee">
+        <div class="container">
+            <div class="buy_coffee_text">
+                <h2 class="buy_coffee_title title">Приобрести кофе <br/> по самой наилучшей цене в городе.</h2>
+                <div class="buy_coffee_desc border_left">
+                    <p>При ремонте у нас можете приобрести кофе по самой найлушей цене в городе.</p>
+                    <p>Если найдете дешевле с нас пакет с кофе <strong>БЕСПЛАТНО!</strong></p>
+                </div>
+            </div>
+            <div class="buy_coffee_box">
+                <div class="buy_coffee_block">
+                    <div class="buy_coffee_img_box">
+                        <div class="buy_coffee_img" style="background-image: url(img/buy_coffee_1.png)"></div>
+                    </div>
+                    <div class="buy_coffee_info">
+                        <h3 class="buy_coffee_name">Зерновой кофе Manuel Caffé Puro 30% Arabica 70% Robusta 1 kg</h3>
+                        <div class="buy_coffee_price color_light">195 лей</div>
+                    </div>
+                </div>
+                <div class="buy_coffee_block">
+                    <div class="buy_coffee_img_box">
+                        <div class="buy_coffee_img" style="background-image: url(img/buy_coffee_2.png)"></div>
+                    </div>
+                    <div class="buy_coffee_info">
+                        <h3 class="buy_coffee_name">Молотый Lavazzа Cremo&Gusto 250 gr</h3>
+                        <div class="buy_coffee_price color_light">50 лей</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="container">
+            <div class="banner_box bg_light">
+                <div class="banner_icon"><img src="img/bacnner_icon.svg" alt=""></div>
+                <div class="banner_img_box">
+                    <div class="banner_img" style="background-image: url(img/banner.png)"></div>
+                </div>
+                <div class="banner_block color_white">
+                    <h2 class="banner_title ">На ЛЮБОЙ ремонт у нас подарок Жидкость для очистки кофемашины от
+                        накипи</h2>
+                    <div class="banner_item">
+                        <div class="banner_timer">
+                            <div class="timer_block">
+                                <div class="timer_item bg_dark">
+                                    <div class="timer_line"></div>
+                                    <span class="timer_num">02</span>
+                                </div>
+                                <div class="timer_title">дней</div>
+                            </div>
+                            <div class="timer_block">
+                                <div class="timer_item bg_dark">
+                                    <div class="timer_line"></div>
+                                    <span class="timer_num">22</span>
+                                </div>
+                                <div class="timer_title">часов</div>
+                            </div>
+                            <div class="timer_block">
+                                <div class="timer_item bg_dark">
+                                    <div class="timer_line"></div>
+                                    <span class="timer_num">48</span>
+                                </div>
+                                <div class="timer_title">минут</div>
+                            </div>
+                            <div class="timer_block">
+                                <div class="timer_item bg_dark">
+                                    <div class="timer_line"></div>
+                                    <span class="timer_num">36</span>
+                                </div>
+                                <div class="timer_title">секунд</div>
+                            </div>
+                        </div>
+                        <div class="banner_btn">
+                            <a href="#" class="btn bg_dark color_white">ПОЛУЧИТЬ ПОДАРОК</a>
+                            <span>Ждем вас. Мы работаем, ждем вас!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="container">
+            <h2 class="title">Ваши вопросы -<br/> наши ответы!</h2>
+            <div class="faq_box" style="background-image: url(img/faq_bg.png)">
+                <div class="faq_body">
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">Как заказать ремонт?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">Сколько стоит ремонт кофейного оборудования?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">Какие марки кофемашин и кофеварок вы чините?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">Сколько стоит выезд мастера?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">Какие гарантии предоставляет сервис?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">В каких районах вы работаете?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">Где брать запчасти для ремонта?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">Можно ли запчасти предоставить самому?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">Как осуществляется ремонт или обслуживание?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_block">
+                        <div class="faq_item">
+                            <h3 class="faq_title">Сколько времени занимает ремонт?</h3>
+                            <div class="faq_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+                                est harum libero sapiente veniam vitae?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" style="background-image: url(img/reviews_img.png)">
+        <div class="container">
+            <div class="reviews_box">
+                <h2 class="title reviews_title">Клиенты нас <br/> очень <span>любят</span></h2>
+                <div class="reviews_block">
+                    <div class="reviews_item">
+                        <div class="reviews_user" style="background-image: url(img/user_1.png)">
+                            <div class="reviews_icon"><img src="img/emoji_1.svg" alt=""></div>
+                        </div>
+                        <div class="reviews_text">
+                            <div class="reviews_desc">Дважды к ним обращался, сделали по хорошей цене. Последний раз
+                                заменили помпу на кофемашине. Жена довольна, я тоже!
+                            </div>
+                            <h3 class="user_name">Андрей Брынза</h3>
+                        </div>
+                    </div>
+                    <div class="reviews_item">
+                        <div class="reviews_user" style="background-image: url(img/user_2.png)">
+                            <div class="reviews_icon"><img src="img/emoji_2.svg" alt=""></div>
+                        </div>
+                        <div class="reviews_text">
+                            <div class="reviews_desc">Eram în culmea disperării când am ajuns la ei. Băieții m-au
+                                surprins cu amabilitatea și profesionalismul de care au dat dovadă. Recomand din tot
+                                sufletul! Mulțumesc băieți! Ține-ți sus munca bună!
+                            </div>
+                            <h3 class="user_name">Florin Acălugăriței</h3>
+                        </div>
+                    </div>
+                    <div class="reviews_item">
+                        <div class="reviews_user" style="background-image: url(img/user_3.png)">
+                            <div class="reviews_icon"><img src="img/emoji_3.svg" alt=""></div>
+                        </div>
+                        <div class="reviews_text">
+                            <div class="reviews_desc">Recomand. Mi-au reparat foarte <br/> rapid espressorul.</div>
+                            <h3 class="user_name">Maria Scarlat</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews_bottom">
+                    <button class="btn bg_light color_white">Все отзывы</button>
+                    <div class="reviews_bottom_text">
+                        Кстати, если есть что сказать,
+                        <u> оставьте отзыв</u>, или можете <u>написать</u> нашему директору
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <div class="map_top">
+            <div class="container">
+                <div class="map_item" style="background-image: url(img/map_bg.png)">
+                    <h2 class="title map_title"><span class="color_light">Срочный ремонт</span> <br/> кофемашин в Кишиневе с гарантией до 365 дней </h2>
+                    <div class="map_desc">Звоните или оставляйте ваш номер телефона. Отправим курьера.
+                        Ориентировочная цена доставки 80 лей
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="form bg_light map_form">
+                        <div class="form_item">
+                        <input type="text" placeholder="Имя" class="form_inp">
+                        </div>
+                        <div class="form_item">
+                            <select class="select_accent form_select form_inp">
+                                <option value="">День</option>
+                                <option value="Вариант1">Вариант 1</option>
+                                <option value="Вариант2">Вариант 2</option>
+                                <option value="Вариант3">Вариант 3</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <select class="select_accent form_select form_inp">
+                                <option value="">Время</option>
+                                <option value="Вариант1">Вариант 1</option>
+                                <option value="Вариант2">Вариант 2</option>
+                                <option value="Вариант3">Вариант 3</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                        <input type="tel" placeholder="06X XX XX XX" class="form_inp">
+                        </div>
+                        <div class="form_btn">
+                            <button class="btn bg_dark color_white">Узнать стоимость</button>
+                            <span>Ждем вас. Мы работаем ждем вас!</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="map_box" style="background-image: url(img/map.svg)"></div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer_box">
+            <div class="footer_block">
+                <a href="#" class="logo"><img src="img/logo.svg" alt=""></a>
+                <ul class="social_list">
+                    <li><a href="#"><img src="img/social_1.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social_2.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social_3.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/social_1.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="footer_block">
+                <h3 class="footer_title">Поломки</h3>
+                <ul class="breakdowns_list">
+                    <li><a href="#">Протекает</a></li>
+                    <li><a href="#">Не делает пену</a></li>
+                    <li><a href="#">Не подает воду</a></li>
+                    <li><a href="#">Плохо течет кофе</a></li>
+                    <li><a href="#">Не включается</a></li>
+                    <li><a href="#">Не варит кофе</a></li>
+                    <li><a href="#">Не мелет кофе</a></li>
+                    <li><a href="#">Не греет воду</a></li>
+                </ul>
+            </div>
+            <div class="footer_block">
+                <h3 class="footer_title">Рейтинг сервиса</h3>
+                <div class="stars"><img src="img/stars.svg" alt=""></div>
+                <div class="rating">4.8/5.0 - 403 голоса</div>
+                <div class="header_block border_left">
+                <span>г. Кишинев, <br>
+                ул Бэнулеску Бодони 33
+                    </span>
+                    <a href="#" class="color_light"><img src="img/location.svg" alt="">На карте</a>
+                </div>
+            </div>
+            <div class="footer_block">
+                <div class="header_block border_left">
+                    <span class="color_grey">Orange</span>
+                    <a href="tel:069827738" class="tel_link">069 82 77 38</a>
+                    <span class="color_light">Cегодня работаем до 18:30</span>
+                </div>
+                <button class="btn bg_dark color_white">Заказать звонок</button>
+            </div>
+            <div class="footer_block">
+                <ul class="footer_list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="text_center">© 2021 I Love coffee</div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
+        integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script/script.js"></script>
+</body>
+
+</html>
